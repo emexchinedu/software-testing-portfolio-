@@ -10,3 +10,17 @@
 | 7 | Unit | Developer | To make sure the security is on for the safety of an account
 | 8 | System | Tester | To make sure the customer can access the account and make payment
 
+## The six testing steps in my work
+| Step | I did this when I... |
+|---|---|
+| 1. Understand | |
+| 2. Plan | |
+| 3. Design | |
+| 4. Set up | |
+| 5. Run | |
+| 6. Close | |
+**The step I skipped:** ____ because ____
+### Test cases for the ____ page
+| # | Steps | Expected result |
+|---|---|---|
+| TC1 | 1. ____ 2. ____ | ____ |
