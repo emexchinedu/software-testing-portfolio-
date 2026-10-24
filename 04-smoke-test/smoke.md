@@ -13,7 +13,7 @@
 | 9 | Products added to cart, click the checkout | It should navigate to payment instructions | Pass | Fail |
 | 10 | Stay on the account for 5 seconds without activity |The page logs out to input the user correct details | Pass | Pass | 
 ## Decision
-- **standard_user:** ready for deeper testing because bugs are low, we can be fixed and retest
+- **standard_user:** ready for deeper testing because it still needs to retest to be sure no bug is found
 - **problem_user:** send it back because bugs are high, we needs urgent attention
 ## Evidence
 
