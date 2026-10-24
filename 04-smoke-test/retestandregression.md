@@ -1,5 +1,5 @@
 ## Retest and regression: sorting
-**My question to the developer:** 4239What should I check to make sure the sorting works correctly?
+**My question to the developer:** What should I check to make sure the sorting works correctly?
 ### Retest
 | Sort option | standard_user |
 |---|---|
@@ -11,5 +11,5 @@
 | Nearby feature | Result |
 |---|---|
 | | |
-**Ready to release?** ____ because ____
-**problem_user:** ____ **What this teaches me:** ____
+**Ready to release?** Yes because there are no bugs | Pass |
+**problem_user:** no **What this teaches me:** when bugs are high and low, when i don't need to do further testing but to send it back to be fixed | Fail |
