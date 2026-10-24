@@ -10,9 +10,10 @@
 | 6 | Open the homepage | All products can add to cart | Pass | Fail |
 | 7 | Open the homepage | All products can remove from cart | Pass | Fail |
 | 8 | Open a product page, at left side of the bottom page, click any of the social media button | It navugates to the social media page to login | Pass | Pass |
-| 9 | 
+| 9 | Products added to cart, click the checkout | It should navigate to payment instructions | Pass | Fail |
+| 10 | Stay on the account for 5 seconds without activity |The page logs out to input the user correct details | Pass | Pass | 
 ## Decision
-- **standard_user:** ____ because ____
-- **problem_user:** ____ because ____
+- **standard_user:** ready for deeper testing because bugs are low, we can be fixed and retest
+- **problem_user:** send it back because bugs are high, we needs urgent attention
 ## Evidence
 ![What the picture shows](screenshots/smoke-problem-user-xxx.png)
