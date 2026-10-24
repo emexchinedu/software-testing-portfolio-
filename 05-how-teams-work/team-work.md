@@ -1,3 +1,20 @@
+# How Software Teams Work
+## Waterfall
+(The project is done one step at a time. The tester usually tests the software after development is finished, so bugs may be found late)
+A company website because the requirements are clear and unlikely to change.
+## The V-model
+(Testing is planned from the beginning. The tester prepares test cases early and checks that the software works as expected)
+A banking app because it needs careful testing for accuracy and security
+## Agile and Scrum
+(The team builds and tests the software in small stages. The tester works with developers to find bugs early and improve the product)
+A food delivery app because the team can add features, get feedback and make improvements.
+
+A sprint is a short period, usually 2 weeks, when an Agile team works on specific tasks.
+
+A daily stand-up is a short meeting where team members share what they did, what they will do next, and any problems they have.
+
+
+
 ## The six testing steps in my work
 | Step | I did this when I... |
 |---|---|
