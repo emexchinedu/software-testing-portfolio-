@@ -16,4 +16,5 @@
 - **standard_user:** ready for deeper testing because bugs are low, we can be fixed and retest
 - **problem_user:** send it back because bugs are high, we needs urgent attention
 ## Evidence
-![What the picture shows](screenshots/smoke-problem-user-xxx.png)
+
+
