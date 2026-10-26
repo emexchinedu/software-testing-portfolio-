@@ -18,4 +18,8 @@
 ## Evidence
 ![What it
 shows](smoke-problem-user-addtocart.png).
+![What it
+shows](smoke-problem-user-removecart.png).
+![What it
+shows](smoke-problem-user-picture.png)
 
