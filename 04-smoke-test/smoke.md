@@ -22,4 +22,5 @@ shows](smoke-problem-user-addtocart.png).
 shows](smoke-problem-user-removecart.png).
 ![What it
 shows](smoke-problem-user-picture.png)
-
+![What it
+shows](smoke-problem-user-filter.png)
