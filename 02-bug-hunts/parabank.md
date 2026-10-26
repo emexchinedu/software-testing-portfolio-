@@ -9,4 +9,4 @@
 | Date | Result | Status |
 |---|---|---|
 | 10/26/2026 | Pass | Closed |
-![Retest screenshot](screenshots/parabank-retest-____.png)
+![Retest screenshot](parabank-retest-2026-10-26.png)
