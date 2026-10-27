@@ -28,3 +28,15 @@
 | Value | What should happen |
 |---|---|
 | ₦9,999, ₦10,000, | 9,999 should refuse, 10, 000 should accept |
+## Part 2: Sign-up form, ages 18 to 65
+| ID | What it checks | Group or edge | Test data | Steps | Expected result |
+|---|---|---|---|---|---|
+| TC-01 | Empty | Group | 0 | Leave the form empty | Space shows invalid |
+| TC-02 | To check if number between 18-65 | Group | 20 | Fill in the age from 20 | Age should be accepted |
+| TC-03 | To check 66 above | Group | 66 | Fill in the age from 66 | Age should be refused |
+| TC-04 | To check if a number lower than 18 | Edge | 17 | Fill in the number close to 18 which is 17 | Age should be refused |
+| TC-05 | To check from the starting age 18 to see what happens | Edge | 18 | Fill in the age number which is 18 | Age should be accepted |
+| TC-06 | To check from the ending age 65 to see what happens | Edge | 65 | Fill in the age number which is 65 | Age should be accepted |
+| TC-07 | To check from age number above 65 which is 66 | Edge | 66 | Fill in the age number which is 66 | Age should be refused |
+
+**Question for the team:**What if letters or emojis are entered into the form? Should the system allow them, or should it display a validation error?
