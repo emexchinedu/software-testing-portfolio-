@@ -55,5 +55,7 @@
 **Can a Nigerian user enter their number?** No
 **Question for the team:** Should letters be allowed in a field that is intended to accept numbers only? 
 ### Evidence
-![What it shows](screenshots/demoqa-mobile-____.png)
+![What it shows](demoqa-mobile-accepted.png)
+![What it
+shows](demoqa-mobile-refused.png)
 
