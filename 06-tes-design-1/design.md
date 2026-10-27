@@ -40,3 +40,19 @@
 | TC-07 | To check from age number above 65 which is 66 | Edge | 66 | Fill in the age number which is 66 | Age should be refused |
 
 **Question for the team:**What if letters or emojis are entered into the form? Should the system allow them, or should it display a validation error?
+## Part 3: DemoQA mobile number
+**Site:** demoqa.com/automation-practice-form · **Browser:** Chrome Incognito · **Date:** 10/27/2026
+**Rule:** the mobile number must be exactly 10 digits.
+**Groups:** 3
+**Edges:** 2
+| ID | What it checks | Group or edge | Test data | Steps | Expected | Actual | Pass or Fail |
+|---|---|---|---|---|---|---|---|
+| TC-08 | To check what happens leaving the space | Group | Empty | Leaving the space empty | cant go through | Page didn't move | Fail |
+| TC-09 | To check when 10 digits are filled in the space | Group | 10 | entered the 10 digits correctly | Display submitted successfully | Thanks for submitting | Pass |
+| TC-10 | To check more than 10 digits | Group | 11 | Entered 11 digits | Cant go through | Page didn't move | Fail |
+| TC-10 | To check if 9 digits | Edge | 9 | Entered 9 digits | Cant go through | Page didn't move | Fail |
+| TC-11 | To check if 10 digits | Edge | 10 | Entered 10 digits | Submitted successfully | Thanks for submitting | Pass |
+**Can a Nigerian user enter their number?** No
+**Question for the team:** Should letters be allowed in a field that is intended to accept numbers only? 
+### Evidence
+![What it shows](screenshots/demoqa-mobile-____.png)
