@@ -58,4 +58,21 @@
 ![What it shows](demoqa-mobile-accepted.png)
 ![What it
 shows](demoqa-mobile-refused.png)
-
+## Part 4: SauceDemo checkout (no written rule)
+**User:** standard_user · **Date:** 10/27/2026
+### The rules I think each box should follow
+- **First Name:** It must be a word
+- **Last Name:** It must be a word
+- **Postal Code:** It must only contain letters and numbers
+### Postal Code groups
+(list them)
+| ID | What it checks | Group or edge | Test data | Steps | Expected | Actual | Pass or Fail |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+### Questions for the team
+- ____
+![What it shows](screenshots/saucedemo-postal-____.png)
+## Part 5: Interview practice
+**Question:** A password box must be 8 to 20 characters. You cannot test every
+password. What would you test, and why?
+**My answer:** I would use equivalence partitioning and boundary value analysis and the group i would test the empty and exact number characters and above. At edges i would test 7, 8, 20, 21, and empty. I can test few not many, group behave same way and bugs can hide at the edges. 
