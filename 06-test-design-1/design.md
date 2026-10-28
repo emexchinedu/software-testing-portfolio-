@@ -63,14 +63,17 @@ shows](demoqa-mobile-refused.png)
 ### The rules I think each box should follow
 - **First Name:** It must be a word
 - **Last Name:** It must be a word
-- **Postal Code:** It must only contain letters and numbers
+- **Postal Code:** It must be in numbers with six digits
 ### Postal Code groups
-(list them)
+(0, 6, 7,)
 | ID | What it checks | Group or edge | Test data | Steps | Expected | Actual | Pass or Fail |
 |---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| TC-12 | To check when the space is left empty | Group | Empty | Leaving the space empty | Should display Error | Displayed error  | Pass |
+| TC-13 | To check when 6 digits are filled in the space | Group | 6 | Entered 6 digits in the space | Should display correct | Gave a room to add more digit | Fail |
+| TC-14 | To check more than 6 digits | Group | 7 | Entered 7 digits in the space | Should display error | Gave a room to add more digits | Fail |
+| TC-15 | 
 ### Questions for the team
-- ____
+- Should letters, emojis, and special characters be allowed in this field, or should the system reject them?
 ![What it shows](screenshots/saucedemo-postal-____.png)
 ## Part 5: Interview practice
 **Question:** A password box must be 8 to 20 characters. You cannot test every
