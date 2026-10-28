@@ -74,7 +74,7 @@ shows](demoqa-mobile-refused.png)
 | TC-15 | 
 ### Questions for the team
 - Should letters, emojis, and special characters be allowed in this field, or should the system reject them?
-![What it shows](screenshots/saucedemo-postal-____.png)
+![What it shows](saucedemo-postal-code.png)
 ## Part 5: Interview practice
 **Question:** A password box must be 8 to 20 characters. You cannot test every
 password. What would you test, and why?
