@@ -79,3 +79,7 @@ shows](demoqa-mobile-refused.png)
 **Question:** A password box must be 8 to 20 characters. You cannot test every
 password. What would you test, and why?
 **My answer:** I would use equivalence partitioning and boundary value analysis and the group i would test the empty and exact number characters and above. At edges i would test 7, 8, 20, 21, and empty. I can test few not many, group behave same way and bugs can hide at the edges. 
+## What I learned
+- (I learnt how i can test a box space by group test and edge test)
+- (I learnt that bugs can be found in edges)
+- (I learnt i can be able to make rules for a test)
