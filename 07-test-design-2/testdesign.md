@@ -83,3 +83,11 @@
 ## Assignment 6: Interview practice
 **Question:** How would you test a login that locks the account after 3 wrong passwords?
 **My answer:** I would use state to test, I would enter the wrong password three times and check what happens. I would check if the account gets locked after the third attempt. I would then try to log in with the correct password. I would check if the system shows an error message. Finally, I would check how long the account stays locked and when I can try again.
+## Which tool?
+| Rule | Tool | Why |
+|---|---|---|
+| Usernames must be 5 to 15 characters | Group and Edges | I only need to test one value from each group because other values in the same group behave the same way. Bugs are more likely to occur at the boundaries (edges), so I should test those carefully |
+| After the order is shipped, it cannot be cancelled | State | The app remember what happens |
+| Students and staff get 10% off, but only in December | Decision table | Two possible things that can make a rule work |
+## What I learned
+- I learned how to test an app or website using different tools and identify areas that need testing without being told what to do.
