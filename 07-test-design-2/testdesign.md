@@ -80,4 +80,6 @@
 | 9 | | If i enter the first name and postal code maybe it takes me to the checkout complete | At the checkout information enter details in first name and postal code | Displayed last name required | Fine |
 
 **My most interesting result:** 8 	If I delay entering my correct details during checkout, maybe the system allow me to return and continue from where I stopped. It checks if the system saves your checkout progress when you take a long time to enter your details. If you return, can you continue from where you stopped without starting again?
-
+## Assignment 6: Interview practice
+**Question:** How would you test a login that locks the account after 3 wrong passwords?
+**My answer:** I would use state to test, I would enter the wrong password three times and check what happens. I would check if the account gets locked after the third attempt. I would then try to log in with the correct password. I would check if the system shows an error message. Finally, I would check how long the account stays locked and when I can try again.
