@@ -66,3 +66,12 @@
 | TC-04 | Add items to cart, paste the cart page link in another browser | Same cart page with items appear | Same cart page with items appear | Pass |
 
 ![What it shows](saucedemo-trip.png)
+## Assignment 5: Smart guessing
+| # | Question | My guess | What I did | What happened | Bug, question or fine |
+|---|---|---|---|---|---|
+| 1 | Empty | If i click checkout leaving the boxes empty maybe i am logged to the account | at login leave the boxes empty and click login | Details are required | Fine |
+| 2 | Wrong | If i enter numbers in place where letters are meant to be, maybe i can be able to login | Typed numbers in first name and last name's box | Checkout Overview appears | Bug |
+| 3 | Edge | If i entered more digits expected in the box maybe it allows more digits | At the checkout information i added more number to the postal code | It allows more digits in the box | Question |
+| 4 | Weird | If i enter emojis and symbols in first name box maybe i can use them to make a name | Checkout information add symbols as my name | Checkout overview appears | Bug |
+
+**My most interesting result:** ____
