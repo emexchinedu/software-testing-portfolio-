@@ -73,5 +73,11 @@
 | 2 | Wrong | If i enter numbers in place where letters are meant to be, maybe i can be able to login | Typed numbers in first name and last name's box | Checkout Overview appears | Bug |
 | 3 | Edge | If i entered more digits expected in the box maybe it allows more digits | At the checkout information i added more number to the postal code | It allows more digits in the box | Question |
 | 4 | Weird | If i enter emojis and symbols in first name box maybe i can use them to make a name | Checkout information add symbols as my name | Checkout overview appears | Bug |
+| 5 | Twice |  If i double click finish maybe i order twice | After the checkout information i click finish twice | Checkout complete | Fine |
+| 6 | Interrupt | If i refresh or lose internet halfway | Refresh the checkout information page | It comes back to the same page | Fine |
+| 7 | Device | If i try with smaller screen phone maybe i will get the same view as on laptop | Used a small screen phone to view my checkout | The homepage was smaller and different | Question |
+| 8 | | If I delay entering my correct details during checkout, maybe the system allow me to return and continue from where I stopped | On checkout page delay for sometime | It takes me back to the login page | Question |
+| 9 | | If i enter the first name and postal code maybe it takes me to the checkout complete | At the checkout information enter details in first name and postal code | Displayed last name required | Fine |
 
-**My most interesting result:** ____
+**My most interesting result:** 8 	If I delay entering my correct details during checkout, maybe the system allow me to return and continue from where I stopped. It checks if the system saves your checkout progress when you take a long time to enter your details. If you return, can you continue from where you stopped without starting again?
+
