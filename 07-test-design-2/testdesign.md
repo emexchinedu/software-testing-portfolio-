@@ -33,14 +33,18 @@
 ![What it shows](saucedemo-login-fail.png)
 ![What it shows](saucedemo-login-pass.png)
 ## Assignment 3: Bank PIN
-![My drawing](screenshots/pin-drawing.jpg)
+![My drawing](pin-drawing.jpeg)
 | Where I am now | What I do | Where I end up |
 |---|---|---|
 | Ready | Wrong PIN | 1 wrong |
-| | | |
+| Wrong PIN | 2 Wrong | Wrong PIN | 
 | ID | Journey | What should happen | Should it be allowed? |
 |---|---|---|---|
-| | | | |
+| TC-01 | Correct pin | logged in | Yes |
+| TC-02 | Wrong, correct pin | Logged in | Yes |
+| TC-03 | Wrong, Wrong, Correct | Logged In | Yes |
+| TC-04 | Wrong, Wrong, Wrong | Locked | Yes |
+| TC-05 | Wrong, Wrong, Wrong, Correct | Locked | No |
 ### Questions for the team
-- ____
-- ____
+- If an account is locked after multiple failed login attempts, how long does the user have to wait before trying again?
+- If an account is locked due to multiple failed login attempts, does the user need to reset their password to regain access, even if they enter the correct login credentials?
