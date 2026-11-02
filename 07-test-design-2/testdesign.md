@@ -12,7 +12,7 @@
 | TC-02 | 2 | Gold member | Gets free delivery | 
 | TC-03 | 3 | Customer | Gets free delivery |
 | TC-04 | 4 | Customer | Pays for the delivery |
-**The column a tester would most likely forget:** ____
+**The column a tester would most likely forget:** Column 1 because the column meet the demands
 ## Assignment 2: SauceDemo login table
 | Question | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 |
 |---|---|---|---|---|---|
