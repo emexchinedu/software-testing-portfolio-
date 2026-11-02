@@ -13,3 +13,21 @@
 | TC-03 | 3 | Customer | Gets free delivery |
 | TC-04 | 4 | Customer | Pays for the delivery |
 **The column a tester would most likely forget:** ____
+## Assignment 2: SauceDemo login table
+| Question | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 |
+|---|---|---|---|---|---|
+| Username typed? | Yes| Yes | Yes | Yes | No |
+| Password typed? | Yes | Yes | Yes | No | Yes |
+| Do they match? | Yes | Yes | No | No | No |
+| Account locked? | Yes | No | Yes | Yes | No |
+| **What should happen** | Locked  message | Logged in | Details do not match | Password required | Username required |
+**A mix that cannot happen, and why:** The mix is not possible to happen, there's no rule for it and rules cant make for such. therefore its a bug
+| ID | Column | What I typed | What should happen | What really happened (exact message) | Pass or Fail |
+|---|---|---|---|---|---|
+| TC-01 | 1 | Typed correct Username, password | Should Login | This user has been locked out | Fail |
+| TC-02 | 2 | Typed correct details | Should login | logged to the product page | Pass |
+| TC-03 | 3 | Typed incorrect details | Cant get through | Details do not match | Pass |
+| TC-04 | 4 | Typed  correct username no password | Cant get through | Password is required | Pass |
+| TC-05 | 5 | Typed correct password no username | Cant get through | Username is required | Pass | 
+**Both boxes empty:** Username is required and its not much helpful, it should include password is required
+![What it shows](screenshots/saucedemo-login-____.png)
