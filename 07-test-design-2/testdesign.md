@@ -48,3 +48,21 @@
 ### Questions for the team
 - If an account is locked after multiple failed login attempts, how long does the user have to wait before trying again?
 - If an account is locked due to multiple failed login attempts, does the user need to reset their password to regain access, even if they enter the correct login credentials?
+- ## Assignment 4: SauceDemo shopping trip
+| Page I am on | What I click | Page I go to |
+|---|---|---|
+| Login page | Log in as standard_user | Products |
+| Products | Add item to cart | product page showing items in the cart |
+| products | Click the cart | Cart |
+| Cart | Click on checkout | Checkout Information |
+| Checkout | Type information | Checkout Overview |
+ Checkout Overview | Click on finish | Complete
+### Things that should be stopped
+| ID | What I tried | What should happen | What really happened | Pass or Fail |
+|---|---|---|---|---|
+| TC-01 | log out paste the products page address back in | Goes back to login page | Login page appears | Pass |
+| TC-02 | After Finish, press the browser Back button | Goes back to product | Goes back to checkout overview | Fail |
+| TC-03 | Go to checkout with nothing in the cart | Cart page display without items | Cart page appears no item | Pass |
+| TC-04 | Add items to cart, paste the cart page link in another browser | Same cart page with items appear | Same cart page with items appear | Pass |
+
+![What it shows](screenshots/saucedemo-trip-____.png)
