@@ -65,4 +65,4 @@
 | TC-03 | Go to checkout with nothing in the cart | Cart page display without items | Cart page appears no item | Pass |
 | TC-04 | Add items to cart, paste the cart page link in another browser | Same cart page with items appear | Same cart page with items appear | Pass |
 
-![What it shows](screenshots/saucedemo-trip-____.png)
+![What it shows](saucedemo-trip.png)
