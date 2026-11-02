@@ -30,4 +30,5 @@
 | TC-04 | 4 | Typed  correct username no password | Cant get through | Password is required | Pass |
 | TC-05 | 5 | Typed correct password no username | Cant get through | Username is required | Pass | 
 **Both boxes empty:** Username is required and its not much helpful, it should include password is required
-![What it shows](screenshots/saucedemo-login-____.png)
+![What it shows](saucedemo-login-fail.png)
+![What it shows](saucedemo-login-pass.png)
