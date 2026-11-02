@@ -32,3 +32,15 @@
 **Both boxes empty:** Username is required and its not much helpful, it should include password is required
 ![What it shows](saucedemo-login-fail.png)
 ![What it shows](saucedemo-login-pass.png)
+## Assignment 3: Bank PIN
+![My drawing](screenshots/pin-drawing.jpg)
+| Where I am now | What I do | Where I end up |
+|---|---|---|
+| Ready | Wrong PIN | 1 wrong |
+| | | |
+| ID | Journey | What should happen | Should it be allowed? |
+|---|---|---|---|
+| | | | |
+### Questions for the team
+- ____
+- ____
