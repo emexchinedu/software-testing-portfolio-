@@ -46,4 +46,8 @@ ____
 ## Assignment 5: Interview practice
 **Question:** Tell me the life of a bug, from when you find it to when it is closed.
 **My answer:**A tester finds a bug and reports it. The developer fixes it, and the tester retests it to make sure it is working correctly. If the bug is gone, it is marked as closed. 
-(      )
+( To Do, In Progress, Done)
+ ## What I learned
+- I learned how to create an account on Jira
+- I learned the process of reporting a bug, getting it fixed, retesting it and closing it
+- I learned how to work as part of a team and who to assign a bug report to
