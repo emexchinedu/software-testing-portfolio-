@@ -39,7 +39,11 @@ ____
 ## Assignment 4: The life of AT-1
 | Date | From | To | Who | What happened |
 |---|---|---|---|---|
-| | To Do | In Progress | Developer | Started fixing |
-| | In Progress | Retest | Developer | Said it is fixed |
-| | Retest | In progress | Me | Not fixed |
+| 11/5/2026 | To Do | In Progress | Developer | Started fixing |
+| 11/6/2026  | In Progress | Retest | Developer | Said it is fixed |
+| 11/7/2026 | Retest | In progress | Me | Not fixed |
 **My retest comment:** The bug is still there, please fix it
+## Assignment 5: Interview practice
+**Question:** Tell me the life of a bug, from when you find it to when it is closed.
+**My answer:**A tester finds a bug and reports it. The developer fixes it, and the tester retests it to make sure it is working correctly. If the bug is gone, it is marked as closed. 
+(      )
