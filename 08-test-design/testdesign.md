@@ -23,6 +23,7 @@ A practice shop for phones, laptops and monitors, the plan is to test and see wh
 - When the bugs are gone
 ____
 ## Assignment 2: My Jira board
-**Project:** AcademyBugs Testing · **Key:** ____
+**Project:** AcademyBugs Testing · **Key:** AT
 **My columns:** To do → In progress → In review → Done
 ![My Jira board](jira-board-1.png)
+
