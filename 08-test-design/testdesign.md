@@ -25,4 +25,4 @@ ____
 ## Assignment 2: My Jira board
 **Project:** AcademyBugs Testing · **Key:** ____
 **My columns:** To do → In progress → In review → Done
-![My Jira board](jira-board.png)
+![My Jira board](jira-board-1.png)
