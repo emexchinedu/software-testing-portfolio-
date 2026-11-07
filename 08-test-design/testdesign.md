@@ -22,3 +22,7 @@ A practice shop for phones, laptops and monitors, the plan is to test and see wh
 ## 7. When I stop
 - When the bugs are gone
 ____
+## Assignment 2: My Jira board
+**Project:** AcademyBugs Testing · **Key:** ____
+**My columns:** To do → In progress → In review → Done
+![My Jira board](jira-board.png)
