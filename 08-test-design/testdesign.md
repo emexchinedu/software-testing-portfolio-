@@ -29,13 +29,13 @@ ____
 ## Assignment 3: AcademyBugs bugs in Jira
 | Jira number | Summary | Severity | Priority | Why this priority |
 |---|---|---|---|---|
-| AT-1 | Cart total shows more than the items cost | Critial |  | |
-| AT-2 | The sign-in button is not centered, but customers can still sign in successfully | Low | | |
-| AT-3 | Customers are unable to navigate to the manufacturer's page | Low |  | |
-| AT-4 | The customer's intended action failed | High | | |
-| AT-5 | Customers can see unwanted spaces in the images, causing a minor visual issue | Low | | |
+| AT-1 | Cart total shows more than the items cost | Critial | Highest | Customers are overcharged, so money is lost |
+| AT-2 | The sign-in button is not centered, but customers can still sign in successfully | Low | Low | Customers can see the sign in buttom not centered but it can enable them to sign in |
+| AT-3 | Customers are unable to navigate to the manufacturer's page | Low | Low | Customers cannot be able navigate to the manufacturer's page |
+| AT-4 | The customer's intended action failed | High | High | This is because, customers mission failed. |
+| AT-5 | Customers can see unwanted spaces in the images, causing a minor visual issue | Low | Low | Customers can see unnecessary spaces within the pictures |
 
-![One of my tickets](screenshots/jira-ticket.png)
+![One of my tickets](jira-ticket.png)
 ## Assignment 4: The life of AT-1
 | Date | From | To | Who | What happened |
 |---|---|---|---|---|
