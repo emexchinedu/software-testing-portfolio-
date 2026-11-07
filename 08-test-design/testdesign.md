@@ -26,4 +26,13 @@ ____
 **Project:** AcademyBugs Testing · **Key:** AT
 **My columns:** To do → In progress → In review → Done
 ![My Jira board](jira-board-1.png)
+## Assignment 3: AcademyBugs bugs in Jira
+| Jira number | Summary | Severity | Priority | Why this priority |
+|---|---|---|---|---|
+| AT-1 | Cart total shows more than the items cost | Critial |  | |
+| AT-2 | The sign-in button is not centered, but customers can still sign in successfully | Low | | |
+| AT-3 | Customers are unable to navigate to the manufacturer's page | Low |  | |
+| AT-4 | The customer's intended action failed | High | | |
+| AT-5 | Customers can see unwanted spaces in the images, causing a minor visual issue | Low | | |
 
+![One of my tickets](screenshots/jira-ticket.png)
