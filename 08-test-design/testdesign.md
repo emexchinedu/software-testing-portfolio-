@@ -1,4 +1,4 @@
-# Test Plan: demoblaze
+# Test Plan: Demoblaze
 **Tester:** Chinedu · **Date:** 11/7/2026
 ## About this plan
 (Two lines: what demoblaze is, and what this plan is for.)
