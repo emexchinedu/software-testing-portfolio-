@@ -36,3 +36,10 @@ ____
 | AT-5 | Customers can see unwanted spaces in the images, causing a minor visual issue | Low | | |
 
 ![One of my tickets](screenshots/jira-ticket.png)
+## Assignment 4: The life of AT-1
+| Date | From | To | Who | What happened |
+|---|---|---|---|---|
+| | To Do | In Progress | Developer | Started fixing |
+| | In Progress | Retest | Developer | Said it is fixed |
+| | Retest | In progress | Me | Not fixed |
+**My retest comment:** The bug is still there, please fix it
