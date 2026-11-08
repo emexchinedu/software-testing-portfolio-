@@ -21,3 +21,7 @@
 ### 6. What could go wrong (risks) If customer forgets the username and password, Entering the incorrect details, Customer cant see the product page
 ### 7. When I stop, when the bugs are gone
 
+| ID | What it checks | Tool | Test data | Steps | Expected | Actual | Pass or Fail |
+|---|---|---|---|---|---|---|---|
+| TC-01 | 
+| TC-02 |
