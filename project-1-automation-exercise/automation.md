@@ -23,5 +23,7 @@
 
 | ID | What it checks | Tool | Test data | Steps | Expected | Actual | Pass or Fail |
 |---|---|---|---|---|---|---|---|
-| TC-01 | 
-| TC-02 |
+| TC-01 | Sign up | Group | Register with valid details | On sign up page Enter a name, Click sign up | It goes to enter account information | It goes to enter account information | Pass |
+| TC-02 | Sign up | Group | Register using an existing email | Enter a name and an email address that is already registered. Click Signup | Displays the email address already exists | Displays an error message that the email address already exists | Pass |
+| TC-03 | Login | Decision table | Login with correct details and logout | Enter a registered email and correct password. Click Login, then Logout | User logs in successfully and is returned to the login page after logout | User logs in successfully and is returned to the login page after logout | Pass |
+| TC-04 | Login | Decision table | Login with incorrect details | Enter an incorrect email address or password. Click Login | Displays your email or password is incorrect | Displays your email or password is incorrect | Pass |
