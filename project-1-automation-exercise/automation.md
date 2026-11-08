@@ -18,5 +18,6 @@
 ### 3. Who, tester
 ### 4. When, 11/8/2026 to 11/10/2026
 ### 5. Devices and browsers Laptop, Phone and Chrome, safari
-### 6. What could go wrong (risks) If customer forget the username and password, Entering the incorrect details, 
-### 7. When I stop
+### 6. What could go wrong (risks) If customer forgets the username and password, Entering the incorrect details, Customer cant see the product page
+### 7. When I stop, when the bugs are gone
+
