@@ -51,7 +51,14 @@
 | AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
 | AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
-
+## Summary
+Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/9/2026
+Test cases: 20 written · 20 run · 17 passed · 3 failed
+Bugs in Jira: AET-1, AET-2, AET-3 (Highest 3 · High __ · Medium __ · Low __)
+Most serious bug: AET-1 because user wont be able to make purchase from the website
+Questions for the team: Can the website be on timeout for registered users? 
+My recommendation: not ready, because the checkout system still needs to be fix and retest
+Next time I would: I will retest the checkout system and available quantity a customer can purchase
 
 
 
