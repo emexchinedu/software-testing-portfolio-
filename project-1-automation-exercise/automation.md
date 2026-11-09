@@ -30,6 +30,9 @@
 | TC-05 | Search for an existing product | Smart guessing | Search the item dress | on the homepage, click on products, click on search, enter the term dress, click on search | Dress products are displayed | Dress products are displayed | Pass |
 | TC-06 | Search for a product that does not exist | Smart guessing | Search term 1234563=--- | On the homepage, click on products, enter the term 1234563=---, click on search | No matching products are displayed | Search products empty | Pass |
 | TC-07 | View products details | Smart guessing | product blue top | click on products and search for blue top, click on view product | Product details, price, description, and quantity options are displayed correctly | Details about the product appears | Pass |
+| TC-08 | Reject zero product quantity | Edges | quantity 0 | On a product page select quantity 0 and add to cart | System refuses to add a zero-quantity product to the cart | Product doesn't go beyond 1 | Pass |
+| TC-09 | Increase product quantity | Edges | Quantity 2 | On a product page select quantity 2 and add to cart | Cart accepts quantity 2 and total the correct price of the two | Product displayed two items added and total price | Pass |
+
 
 
 
