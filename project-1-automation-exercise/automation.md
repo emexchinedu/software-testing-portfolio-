@@ -52,6 +52,8 @@
 | AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
 <img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
+<img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
+
 
 
 ## Summary
