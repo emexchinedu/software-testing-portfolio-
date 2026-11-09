@@ -44,6 +44,16 @@
 | TC-19 | Subscribe using a valid email | Group | Valid email | Scroll to bottom of the page, entered valid email in the subscription box, click on submit | User is successfully subscribed and a success message is displayed | You have been subscribed successfully appears | Pass |
 | TC-20 | Refuse invalid email | Group | Invalid email | Scroll to bottom of the page, entered invalid email in the subscription box, click on submit | System refuse the invalid email and does not subscribe the user | It requires correct email to subscribe | Pass | 
 
+## Bugs
+| Jira | Summary | Found by | Priority | Why this priority |
+|---|---|---|---|---|
+| AET-1 | Refuse quantity exceeding available stock, Steps: Product page, add product to cart, click quantity, it doesn't show any exceeding number, Expected: Should show the maximum you can purchase, Actual: Adding more numbers, the cart button doesn't work, Browser: Chrome(incognito), Laptop | TC-12 | Highest | User doesn't have limit to purchase |
+| AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
+| AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
+
+
+
+
 
 
 
