@@ -35,6 +35,8 @@
 | TC-10 | Remove a product from cart | Edges | A product in the cart | On a product page, add product to the cart and remove product from the cart | Product is removed and the cart is updated accordingly | the cart is empty | Pass |
 | TC-11 | Add one product to cart | Edges | Add a product to cart | On product page, click add to cart | Product appears in the cart with a correct price | Product appears in the cart with a correct price | Pass |
 | TC-12 | Reject quantity exceeding available stock | Group | Add more quantity to know exceeding number | Product page, add product to cart, click quantity, it doesn't show any exceeding number | Should show the maximum you can purchase | Adding more numbers, the cart button doesn't work | Fail |
+| TC-13 | Checkout as a logged-in user | States | Registered user product in cart | Log in, Add product to cart, Click Proceed to Checkout | User information displayed to place order | Delivery address and billing address appears to place order | Pass |
+| TC-14 | Reject checkout without login | States | Product in cart user logged out | Add product to cart, Log out, Open cart, Click Proceed to Checkout | System requests the user to log in or register before proceeding with checkout | Login/signup page pops up | Pass |
 
 
 
