@@ -51,6 +51,9 @@
 | AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
 | AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
+<img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
+
+
 ## Summary
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/9/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
