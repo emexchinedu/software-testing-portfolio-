@@ -34,7 +34,9 @@
 | TC-09 | Increase product quantity | Edges | Quantity 2 | On a product page select quantity 2 and add to cart | Cart accepts quantity 2 and total the correct price of the two | Product displayed two items added and total price | Pass |
 | TC-10 | Remove a product from cart | Edges | A product in the cart | On a product page, add product to the cart and remove product from the cart | Product is removed and the cart is updated accordingly | the cart is empty | Pass |
 | TC-11 | Add one product to cart | Edges | Add a product to cart | On product page, click add to cart | Product appears in the cart with a correct price | Product appears in the cart with a correct price | Pass |
-| TC-12 | Reject quantity exceeding available stock | Group | Add more quantity to know exceeding number | Product page click quantity 
+| TC-12 | Reject quantity exceeding available stock | Group | Add more quantity to know exceeding number | Product page, add product to cart, click quantity, it doesn't show any exceeding number | Should show the maximum you can purchase | Adding more numbers, the cart button doesn't work | Fail |
+
+
 
 
 
