@@ -41,7 +41,8 @@
 | TC-16 | Refuse payment with missing required details | Smart guessing | Missing card number or CVV | Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm | Payment is refused and the system displays a validation message, order is not confirmed | It shows order has been placed successfully | Fail |
 | TC-17 | Submit Contact Us form successfully | Smart guessing | Name, Email, Message | On the homepage click on contact us, enter name, email, message click on submit | Contact form is submitted successfully and a success message is displayed | Success! Your details have been submitted successfully appears | Pass |
 | TC-18 | Refuse Contact Us form with missing required fields | Smart guessing | No Name, no Message | On the homepage click on contact us, leave box empty for name, email, message click on submit | System refuses the incomplete submission and displays validation feedback |  The boxes require details to be filled |  Pass |
-
+| TC-19 | Subscribe using a valid email | Group | Valid email | Scroll to bottom of the page, entered valid email in the subscription box, click on submit | User is successfully subscribed and a success message is displayed | You have been subscribed successfully appears | Pass |
+| TC-20 | Refuse invalid email | Group | Invalid email | Scroll to bottom of the page, entered invalid email in the subscription box, click on submit | System refuse the invalid email and does not subscribe the user | It requires correct email to subscribe | Pass | 
 
 
 
