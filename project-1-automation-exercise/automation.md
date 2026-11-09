@@ -32,7 +32,8 @@
 | TC-07 | View products details | Smart guessing | product blue top | click on products and search for blue top, click on view product | Product details, price, description, and quantity options are displayed correctly | Details about the product appears | Pass |
 | TC-08 | Reject zero product quantity | Edges | quantity 0 | On a product page select quantity 0 and add to cart | System refuses to add a zero-quantity product to the cart | Product doesn't go beyond 1 | Pass |
 | TC-09 | Increase product quantity | Edges | Quantity 2 | On a product page select quantity 2 and add to cart | Cart accepts quantity 2 and total the correct price of the two | Product displayed two items added and total price | Pass |
-
+| TC-10 | Remove a product from cart | Edges | A product in the cart | On a product page, add product to the cart and remove product from the cart | Product is removed and the cart is updated accordingly | the cart is empty | Pass |
+| TC-11 | Add one product to cart | Edges | Add a product to cart | On product page, click add to cart | Product appears in the cart with a correct price | Product appears in the cart with a correct price | Pass |
 
 
 
