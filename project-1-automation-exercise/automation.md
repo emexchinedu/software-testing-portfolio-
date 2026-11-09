@@ -53,6 +53,7 @@
 
 <img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
 <img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
+<img width="2210" height="1219" alt="tc-15-quantity" src="https://github.com/user-attachments/assets/c4ec8006-33f4-4e11-a5f6-b53feee07180" />
 
 
 
