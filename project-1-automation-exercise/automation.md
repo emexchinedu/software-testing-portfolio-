@@ -23,7 +23,14 @@
 
 | ID | What it checks | Tool | Test data | Steps | Expected | Actual | Pass or Fail |
 |---|---|---|---|---|---|---|---|
-| TC-01 | Sign up | Group | Register with valid details | On sign up page Enter a name, Click sign up | It goes to enter account information | It goes to enter account information | Pass |
-| TC-02 | Sign up | Group | Register using an existing email | Enter a name and an email address that is already registered. Click Signup | Displays the email address already exists | Displays an error message that the email address already exists | Pass |
-| TC-03 | Login | Decision table | Login with correct details and logout | Enter a registered email and correct password. Click Login, then Logout | User logs in successfully and is returned to the login page after logout | User logs in successfully and is returned to the login page after logout | Pass |
-| TC-04 | Login | Decision table | Login with incorrect details | Enter an incorrect email address or password. Click Login | Displays your email or password is incorrect | Displays your email or password is incorrect | Pass |
+| TC-01 | Register with valid details | Group | Name: Phil, email: phil@gmail.com  | On signup/login page Enter a name, Click sign up | It goes to enter account information | It goes to enter account information | Pass |
+| TC-02 | Register using an existing email | Group | using same email to register a new account | On signup/login page Enter a name and an email address that is already registered. Click Signup | Displays the email address already exists | Displays an error message that the email address already exists | Pass |
+| TC-03 | Login with correct details and logout | Decision table | Email: phil@gmail.com password: 1234567890 | On signup/login page Enter a registered email and correct password. Click Login, then Logout | User logs in successfully and is returned to the login page after logout | User logs in successfully and is returned to the login page after logout | Pass |
+| TC-04 | Login with incorrect details | Decision table | Email: philgmail.com password: 48493444 | On signup/login page Enter an incorrect email address or password. Click Login | Displays your email or password is incorrect | Displays your email or password is incorrect | Pass |
+| TC-05 | Search for an existing product | Smart guessing | Search the item dress | on the homepage, click on products, click on search, enter the term dress, click on search | Dress products are displayed | Dress products are displayed | Pass |
+| TC-06 | Search for a product that does not exist | Smart guessing | Search term 1234563=--- | On the homepage, click on products, enter the term 1234563=---, click on search | No matching products are displayed | Search products empty | Pass |
+| TC-07 | View products details | Smart guessing | product blue top | click on products and search for blue top, click on view product | Product details, price, description, and quantity options are displayed correctly | Details about the product appears | Pass |
+
+
+
+
