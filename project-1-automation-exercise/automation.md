@@ -45,6 +45,9 @@
 | TC-19 | Subscribe using a valid email | Group | Valid email | Scroll to bottom of the page, entered valid email in the subscription box, click on submit | User is successfully subscribed and a success message is displayed | You have been subscribed successfully appears | Pass |
 | TC-20 | Refuse invalid email | Group | Invalid email | Scroll to bottom of the page, entered invalid email in the subscription box, click on submit | System refuse the invalid email and does not subscribe the user | It requires correct email to subscribe | Pass | 
 
+## Question for the team
+Is there a maximum quantity of stock that a customer can purchase?
+
 ## Bugs
 | Jira | Summary | Found by | Priority | Why this priority |
 |---|---|---|---|---|
@@ -60,6 +63,7 @@
 
 
 
+
 ## Summary
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
@@ -70,7 +74,7 @@ My recommendation: not ready, because the checkout system still needs to be fix 
 Next time I would: I will retest the checkout system and available quantity a customer can purchase
 
 ## What I learned
--I learned how to test different parts of a website and make sure they work properly
+I learned how to test different parts of a website and make sure they work properly
 -I learned how to find bugs and report them on Jira for developers to fix
 -I learned how to to check test results and know when a website is ready for users
 
