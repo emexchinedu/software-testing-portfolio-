@@ -1,4 +1,6 @@
 ## Project 1: Manual Test of Automation Exercise
+
+
 | Part of the shop | What it does | If it broke, which M? |
 |---|---|---|
 | Click sign up | It allows new user to register in the website | Money(critical) |
@@ -67,17 +69,17 @@ Is there a maximum quantity of stock that a customer can purchase?
 
 ## Summary
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
-Test cases: 20 written · 20 run · 17 passed · 3 failed
-Bugs in Jira: AET-1, AET-2, AET-3, Highest 2, Low 1
-Most serious bug: AET-3 because Order was placed successfully with a wrong card number
+Test cases: 20 written · 20 run · 17 passed · 3 failed.
+Bugs in Jira: AET-1, AET-2, AET-3, Highest 2, Low 1.
+Most serious bug: AET-3 because Order was placed successfully with a wrong card number.
 Questions for the team: Can the website be on timeout for registered users? 
-My recommendation: not ready, because the checkout system still needs to be fix and retest
-Next time I would: I will retest the checkout system and available quantity a customer can purchase
+My recommendation: not ready, because the checkout system still needs to be fix and retest.
+Next time I would: I will retest the checkout system and available quantity a customer can purchase.
 
 ## What I learned
-I learned how to test different parts of a website and make sure they work properly
--I learned how to find bugs and report them on Jira for developers to fix
--I learned how to to check test results and know when a website is ready for users
+I learned how to test different parts of a website and make sure they work properly.
+-I learned how to find bugs and report them on Jira for developers to fix.
+-I learned how to to check test results and know when a website is ready for users.
 
 
 
