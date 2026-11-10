@@ -52,9 +52,11 @@
 | AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
 | AET-3 | Order placed with a wrong card number, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
-<img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
+<img width="2523" height="1464" alt="tc-16-payment" src="https://github.com/user-attachments/assets/e8718a97-b00e-438f-9e9e-cac78f64634b" />
+<img width="2210" height="1219" alt="tc-15-payment" src="https://github.com/user-attachments/assets/685e85a5-b5f4-48f2-aea2-905154266ad7" />
 <img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
-<img width="2210" height="1219" alt="tc-15-quantity" src="https://github.com/user-attachments/assets/c4ec8006-33f4-4e11-a5f6-b53feee07180" />
+
+
 
 
 
@@ -67,7 +69,10 @@ Questions for the team: Can the website be on timeout for registered users?
 My recommendation: not ready, because the checkout system still needs to be fix and retest
 Next time I would: I will retest the checkout system and available quantity a customer can purchase
 
-
+## What I learned
+-I learned how to test different parts of a website and make sure they work properly
+-I learned how to find bugs and report them on Jira for developers to fix
+-I learned how to to check test results and know when a website is ready for users
 
 
 
