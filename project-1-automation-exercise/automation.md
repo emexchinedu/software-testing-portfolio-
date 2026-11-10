@@ -1,3 +1,4 @@
+## Project 1: Manual Test of Automation Exercise
 | Part of the shop | What it does | If it broke, which M? |
 |---|---|---|
 | Click sign up | It allows new user to register in the website | Money(critical) |
@@ -17,9 +18,9 @@
 ### 2. What I will not test the video tutorials and why because whatever information that comes from it is not the part of the testing
 ### 3. Who, tester
 ### 4. When, 11/8/2026 to 11/10/2026
-### 5. Devices and browsers Laptop, Phone and Chrome, safari
-### 6. What could go wrong (risks) If customer forgets the username and password, Entering the incorrect details, Customer cant see the product page
-### 7. When I stop, when the bugs are gone
+### 5. Devices and browsers Laptop, Chrome
+### 6. What could go wrong (risks) If customer can be overcharged when a cart total is wrong from the website
+### 7. When I stop, when all 20 tests have run and every fail is in jira
 
 | ID | What it checks | Tool | Test data | Steps | Expected | Actual | Pass or Fail |
 |---|---|---|---|---|---|---|---|
@@ -47,9 +48,9 @@
 ## Bugs
 | Jira | Summary | Found by | Priority | Why this priority |
 |---|---|---|---|---|
-| AET-1 | Refuse quantity exceeding available stock, Steps: Product page, add product to cart, click quantity, it doesn't show any exceeding number, Expected: Should show the maximum you can purchase, Actual: Adding more numbers, the cart button doesn't work, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-12 | Highest | User doesn't have limit to purchase |
-| AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-15 | Highest | User cant be able make purchase without filling the payment details |
-| AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-16 | Highest | Order can placed even with incorrect payment details | 
+| AET-1 | Refuse quantity exceeding available stock, Steps: Product page, add product to cart, click quantity, it doesn't show any exceeding number, Expected: Should show the maximum you can purchase, Actual: Adding more numbers, the cart button doesn't work, Browser: Chrome(incognito), Laptop | TC-12 | Highest | User doesn't have limit to purchase |
+| AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
+| AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
 <img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
 <img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
@@ -60,7 +61,7 @@
 ## Summary
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
-Bugs in Jira: AET-1, AET-2, AET-3 (Highest 3 · High 0 · Medium 0 · Low 0)
+Bugs in Jira: AET-1, AET-2, AET-3, Highest 3 
 Most serious bug: AET-1 because user wont be able to make purchase from the website
 Questions for the team: Can the website be on timeout for registered users? 
 My recommendation: not ready, because the checkout system still needs to be fix and retest
