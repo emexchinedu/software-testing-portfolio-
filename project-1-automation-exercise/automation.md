@@ -57,7 +57,8 @@ Is there a maximum quantity of stock that a customer can purchase?
 
 <img width="2523" height="1464" alt="tc-16-payment" src="https://github.com/user-attachments/assets/e8718a97-b00e-438f-9e9e-cac78f64634b" />
 <img width="2210" height="1219" alt="tc-15-payment" src="https://github.com/user-attachments/assets/685e85a5-b5f4-48f2-aea2-905154266ad7" />
-<img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
+<img width="2798" height="1356" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/2b99b22a-1d00-4dab-a129-8242d4646953" />
+
 
 
 
@@ -68,7 +69,7 @@ Is there a maximum quantity of stock that a customer can purchase?
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
 Bugs in Jira: AET-1, AET-2, AET-3, Highest 2, Low 1
-Most serious bug: AET-1 because user wont be able to make purchase from the website
+Most serious bug: AET-3 because Order was placed successfully with a wrong card number
 Questions for the team: Can the website be on timeout for registered users? 
 My recommendation: not ready, because the checkout system still needs to be fix and retest
 Next time I would: I will retest the checkout system and available quantity a customer can purchase
