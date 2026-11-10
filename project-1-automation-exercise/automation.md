@@ -47,9 +47,9 @@
 ## Bugs
 | Jira | Summary | Found by | Priority | Why this priority |
 |---|---|---|---|---|
-| AET-1 | Refuse quantity exceeding available stock, Steps: Product page, add product to cart, click quantity, it doesn't show any exceeding number, Expected: Should show the maximum you can purchase, Actual: Adding more numbers, the cart button doesn't work, Browser: Chrome(incognito), Laptop | TC-12 | Highest | User doesn't have limit to purchase |
-| AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop | TC-15 | Highest | User cant be able make purchase without filling the payment details |
-| AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop | TC-16 | Highest | Order can placed even with incorrect payment details | 
+| AET-1 | Refuse quantity exceeding available stock, Steps: Product page, add product to cart, click quantity, it doesn't show any exceeding number, Expected: Should show the maximum you can purchase, Actual: Adding more numbers, the cart button doesn't work, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-12 | Highest | User doesn't have limit to purchase |
+| AET-2 | Complete payment with valid details, Steps: Add product to cart, click on checkout, fill the payment information to pay, Expected: Payment is accepted, confirmation message displayed, Actual: Cant entered the payment information without clicking confirm for each box, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-15 | Highest | User cant be able make purchase without filling the payment details |
+| AET-3 | Refuse payment with missing required details, Steps: Add to cart, click checkout, filling the payment information and miss a number, click pay and confirm, Expected: Payment is refused and the system displays a validation message, order is not confirmed, Actual: It shows order has been placed successfully, Browser: Chrome(incognito), Laptop, Phone, Safari | TC-16 | Highest | Order can placed even with incorrect payment details | 
 
 <img width="2523" height="1464" alt="tc-16-quantity" src="https://github.com/user-attachments/assets/b09b7418-9417-4034-a2ac-97f7854ba7f2" />
 <img width="2723" height="1459" alt="tc-12-quantity" src="https://github.com/user-attachments/assets/e0324853-858b-4cad-ad05-b03eb050c77e" />
@@ -58,7 +58,7 @@
 
 
 ## Summary
-Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/9/2026
+Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
 Bugs in Jira: AET-1, AET-2, AET-3 (Highest 3 · High 0 · Medium 0 · Low 0)
 Most serious bug: AET-1 because user wont be able to make purchase from the website
