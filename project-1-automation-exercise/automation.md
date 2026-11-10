@@ -67,7 +67,7 @@ Is there a maximum quantity of stock that a customer can purchase?
 ## Summary
 Tested: Automation Exercise · Browser: chrome(Incognito) · Date: 11/8/2026
 Test cases: 20 written · 20 run · 17 passed · 3 failed
-Bugs in Jira: AET-1, AET-2, AET-3, Highest 3 
+Bugs in Jira: AET-1, AET-2, AET-3, Highest 2, Low 1
 Most serious bug: AET-1 because user wont be able to make purchase from the website
 Questions for the team: Can the website be on timeout for registered users? 
 My recommendation: not ready, because the checkout system still needs to be fix and retest
