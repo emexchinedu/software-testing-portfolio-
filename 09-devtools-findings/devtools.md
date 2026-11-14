@@ -10,5 +10,6 @@
 - Roughly how many requests for one page: 117
 - What happened when I changed the address: The status shows 200, everything is fine and i got request 172 requests but indicate everything working properly 
 - What this taught me: I learned how to use the Network tab to check requests and responses. 
-![Network search](01-network-search.png) 
-![Network search](02-network-search.png) 
+
+<img width="2875" height="1627" alt="02-network-search" src="https://github.com/user-attachments/assets/3d45e631-d05f-404e-8222-0b2931389418" />
+<img width="2875" height="1627" alt="02-network-search" src="https://github.com/user-attachments/assets/16e50f4f-20bb-4118-9582-172535fd2061" />
