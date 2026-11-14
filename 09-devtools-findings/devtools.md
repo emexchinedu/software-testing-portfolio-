@@ -13,3 +13,17 @@
 
 <img width="2875" height="1627" alt="02-network-search" src="https://github.com/user-attachments/assets/3d45e631-d05f-404e-8222-0b2931389418" />
 <img width="2875" height="1627" alt="02-network-search" src="https://github.com/user-attachments/assets/16e50f4f-20bb-4118-9582-172535fd2061" />
+
+## 2. A product that does not exist
+| Address | Expected | Actual | Status code | Bug or question |
+|---|---|---|---|---|
+| /product_details/99999 | Page not found | The page displayed with contents no picture and details shown | 200 | Bug |
+| /abcxyz | Homepage appears | Redirected to homepage | 302 | Question |
+**Bug report**
+- Title: ____
+- Steps: 1. ____
+- Expected: ____
+- Actual: ____
+- Proof: ____
+- Priority: ____ because ____
+![Missing product](screenshots/02-missing-product.png)
