@@ -17,13 +17,15 @@
 ## 2. A product that does not exist
 | Address | Expected | Actual | Status code | Bug or question |
 |---|---|---|---|---|
-| /product_details/99999 | Page not found | The page displayed with contents no picture and details shown | 200 | Bug |
-| /abcxyz | Homepage appears | Redirected to homepage | 302 | Question |
+| /product_details/99999 | 404 Page Not Found error should appear | The page displayed with contents no picture and details shown | 200 | Bug |
+| /abcxyz | 404 Page Not Found error should appear | website redirects to the homepage and displays the website content | 302 | Bug |
 **Bug report**
-- Title: ____
-- Steps: 1. ____
-- Expected: ____
-- Actual: ____
-- Proof: ____
-- Priority: ____ because ____
-![Missing product](screenshots/02-missing-product.png)
+- Title: Invalid URL redirects to the homepage
+- Steps: 1.Open the browser 2. Enter https://automationexercise.com/abcxyz in the address bar 3. Press Enter.
+- Expected: A 404 Page Not Found error should appear because the URL does not exist.
+- Actual: Website redirects to the homepage and displays the website content
+- Proof: <img width="2850" height="1559" alt="300" src="https://github.com/user-attachments/assets/57dd1d2a-4c81-4321-85f7-fca7e6e77ae1" />
+
+- Priority: Low because it redirected back to the main webiste
+<img width="2870" height="1300" alt="02-missing-product" src="https://github.com/user-attachments/assets/1b45c96e-09cd-4eff-af4a-b7ff6929d2c7" />
+
