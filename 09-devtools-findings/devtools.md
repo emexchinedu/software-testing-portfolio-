@@ -49,4 +49,16 @@
 
 **Bug 2:** Falied to add and remove from cart, Steps: on the homepage, click on an item to cart and remove from cart, Expected: Item should be added to cart and remove from cart, Actual: Added items cant be remove from cart and items cant add to cart, Proof: <img width="2871" height="1613" alt="Screenshot 2026-11-15 123148" src="https://github.com/user-attachments/assets/c261a34f-33d9-4b24-a1f7-fc05368a7c5f" />
 , Priority: High
+
 ![Console](screenshots/04-console.png)
+
+## 5. Phone size and slow network
+| Check | Device or speed | What I saw | Problem? |
+|---|---|---|---|
+| SauceDemo checkout | iPhone 12 Pro | Mobile version displayed | No |
+| SauceDemo checkout | Galaxy S20, sideways | Mobile Version displayed | No |
+| automationexercise products | 3G | Finish: 12.29 seconds | Yes |
+<img width="2845" height="1606" alt="05-phone" src="https://github.com/user-attachments/assets/ab08b272-d24d-4e66-a129-c1e8eefef391" />
+
+<img width="2857" height="1641" alt="05-slow" src="https://github.com/user-attachments/assets/616f30ae-eab2-42ad-906c-24b1e2500242" />
+
