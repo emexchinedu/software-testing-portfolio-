@@ -30,7 +30,7 @@
 <img width="2870" height="1300" alt="02-missing-product" src="https://github.com/user-attachments/assets/1b45c96e-09cd-4eff-af4a-b7ff6929d2c7" />
 
 ## 3. Where SauceDemo remembers you
-- Was there a login request? ____ What I saw instead: ____
+- Was there a login request? No What I saw instead: No
 - Cookie name and value: Session, Standard_user
 - What the second drawer (Local Storage) showed after adding the backpack: Cart contents [4]
 - What happened when I deleted the cookie: The session and standard_user name and value were cleared, leaving them empty. When I refreshed the page, it redirected me to the login page.
