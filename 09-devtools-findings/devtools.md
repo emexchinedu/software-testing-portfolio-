@@ -8,7 +8,7 @@
 - Request I found: https://automationexercise.com/products?search=top
 - Status code: 200 (meaning: Everything is ok)
 - Roughly how many requests for one page: 117
-- What happened when I changed the address: The status shows 200, everything is fine and i got request 172 requests but indicate everything working properly 
+- What happened when I changed the address: The status shows 200, everything is fine and i got request 172 requests but indicates everything working properly 
 - What this taught me: I learned how to use the Network tab to check requests and responses. 
 
 <img width="2875" height="1627" alt="02-network-search" src="https://github.com/user-attachments/assets/3d45e631-d05f-404e-8222-0b2931389418" />
@@ -40,9 +40,35 @@
 ## 4. Console errors with error_user
 | Product | Added? | Console message |
 |---|---|---|
-| Sauce Labs Backpack | Yes |  |
-| Sauce Labs Bike Light | Yes | 
-| Sauce Labs Onesie | Yes |
+| Sauce Labs Bolt T-Shirt | No | index-DnLqFcJI.js:573 Uncaught Error: Failed to add item to the cart.
+    at f (index-DnLqFcJI.js:573:45831)
+    at a (index-DnLqFcJI.js:573:46170)
+    at yd (index-DnLqFcJI.js:15:126079)
+    at index-DnLqFcJI.js:15:131072
+    at ln (index-DnLqFcJI.js:15:15065)
+    at wd (index-DnLqFcJI.js:15:127306)
+    at dp (index-DnLqFcJI.js:16:28441)
+    at lp (index-DnLqFcJI.js:16:28263) |
+
+| Sauce Labs Fleece Jacket | No | index-DnLqFcJI.js:573 Uncaught Error: Failed to add item to the cart.
+    at f (index-DnLqFcJI.js:573:45831)
+    at a (index-DnLqFcJI.js:573:46170)
+    at yd (index-DnLqFcJI.js:15:126079)
+    at index-DnLqFcJI.js:15:131072
+    at ln (index-DnLqFcJI.js:15:15065)
+    at wd (index-DnLqFcJI.js:15:127306)
+    at dp (index-DnLqFcJI.js:16:28441)
+    at lp (index-DnLqFcJI.js:16:28263) |
+
+| Test.allTheThings T-Shirt (Red)e | No | index-DnLqFcJI.js:573 Uncaught Error: Failed to add item to the cart.
+    at f (index-DnLqFcJI.js:573:45831)
+    at a (index-DnLqFcJI.js:573:46170)
+    at yd (index-DnLqFcJI.js:15:126079)
+    at index-DnLqFcJI.js:15:131072
+    at ln (index-DnLqFcJI.js:15:15065)
+    at wd (index-DnLqFcJI.js:15:127306)
+    at dp (index-DnLqFcJI.js:16:28441)
+    at lp (index-DnLqFcJI.js:16:28263) |
 
 **Bug 1:** Title: Filter button broken. Steps: On the homepage, click on the filter button, click (Name Z to A). Expected: Items should be displayed in alphabetical order, from Z to A. Actual: Message pops up showing its broken. Proof: <img width="2355" height="1617" alt="Screenshot 2026-11-15 115906" src="https://github.com/user-attachments/assets/ac7c5d2a-9a6c-4665-8a65-8c4b2d810855" />
  Priority: Medium
