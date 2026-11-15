@@ -62,3 +62,11 @@
 
 <img width="2857" height="1641" alt="05-slow" src="https://github.com/user-attachments/assets/616f30ae-eab2-42ad-906c-24b1e2500242" />
 
+## 6. Interview practice
+**Question:** How do you use browser developer tools as a manual tester?
+**My answer:** I use browser developer tools to check how a website works and find errors. I mainly use the Elements, Console and Network tabs. This week, I used the Network tab to check website requests and status codes. This helps developers find problems and fix them quickly.
+## What I learned
+- How to use the Network tab to check requests and status codes.
+- How to use the Console tab to detect errors on a website.
+- How changing a website URL can affect the page displayed.
+  
