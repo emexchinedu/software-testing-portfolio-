@@ -46,5 +46,7 @@
 
 **Bug 1:** Title: Filter button broken. Steps: On the homepage, click on the filter button, click (Name Z to A). Expected: Items should be displayed in alphabetical order, from Z to A. Actual: Message pops up showing its broken. Proof: <img width="2355" height="1617" alt="Screenshot 2026-11-15 115906" src="https://github.com/user-attachments/assets/ac7c5d2a-9a6c-4665-8a65-8c4b2d810855" />
  Priority: Medium
-**Bug 2:** Title, Steps, Expected, Actual, Proof, Priority
+
+**Bug 2:** Falied to add and remove from cart, Steps: on the homepage, click on an item to cart and remove from cart, Expected: Item should be added to cart and remove from cart, Actual: Added items cant be remove from cart and items cant add to cart, Proof: <img width="2871" height="1613" alt="Screenshot 2026-11-15 123148" src="https://github.com/user-attachments/assets/c261a34f-33d9-4b24-a1f7-fc05368a7c5f" />
+, Priority: High
 ![Console](screenshots/04-console.png)
