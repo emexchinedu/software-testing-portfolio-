@@ -37,3 +37,14 @@
 - Why a real shop must work differently: to prevent attackers, make bugs easier to detect, and fix them quickly.
 <img width="2859" height="1611" alt="03-cookie" src="https://github.com/user-attachments/assets/4010f488-c1a3-4bb9-845e-50832b16b934" />
 
+## 4. Console errors with error_user
+| Product | Added? | Console message |
+|---|---|---|
+| Sauce Labs Backpack | Yes |  |
+| Sauce Labs Bike Light | Yes | 
+| Sauce Labs Onesie | Yes |
+
+**Bug 1:** Title: Filter button broken. Steps: On the homepage, click on the filter button, click (Name Z to A). Expected: Items should be displayed in alphabetical order, from Z to A. Actual: Message pops up showing its broken. Proof: <img width="2355" height="1617" alt="Screenshot 2026-11-15 115906" src="https://github.com/user-attachments/assets/ac7c5d2a-9a6c-4665-8a65-8c4b2d810855" />
+ Priority: Medium
+**Bug 2:** Title, Steps, Expected, Actual, Proof, Priority
+![Console](screenshots/04-console.png)
