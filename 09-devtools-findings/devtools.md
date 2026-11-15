@@ -95,4 +95,5 @@
 - How to use the Network tab to check requests and status codes.
 - How to use the Console tab to detect errors on a website.
 - How changing a website URL can affect the page displayed.
+- How to use the Application tab to check cookies and website data.
   
