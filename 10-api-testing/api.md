@@ -85,5 +85,32 @@ Priority: Highest, Money, The website will not be able to recognise the check-in
 Proof: <img width="2856" height="1659" alt="try 7" src="https://github.com/user-attachments/assets/4949a8b5-909f-42d7-93f6-af2b2b4f01e1" />
 
 
+- Try 8)
+
+Title: Entering Letters in the checkout date field
+
+Request: POST, https://restful-booker.herokuapp.com/booking
+{
+    "firstname": "John",
+    "lastname": "Smith",
+    "totalprice": 1100,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2019-01-01",
+        "checkout": "hjdjdfd"
+    },
+    "additionalneeds": "Breakfast"
+}
+
+Expected: 400 and bad request should display
+
+Actual: Booking Details displayed successfully with letters with status code 200
+
+Priority: Highest, Money, The website will not be able to recognise the check-out date
+
+Proof: <img width="2854" height="1718" alt="try 8" src="https://github.com/user-attachments/assets/ee205290-512c-4614-a496-05992511da3f" />
+
+
+
 
 
