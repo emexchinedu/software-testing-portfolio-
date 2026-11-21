@@ -28,6 +28,62 @@
 | 6 | Leave depositpaid empty | Smart guessing | 400 and bad request should display | 400 and bad request should display | 400 | Pass |
 | 7 | Change checkin date to Letters | Group | 400 and bad request should display | Booking Details displayed successfully with letters | 200 | Fail |
 | 8 | Change checkout date to letters | group | 400 and bad request should display | Booking Details displayed successfully with letters | 200 | Fail |
+| 9 | Enter Numbers in lastname | Smart guessing | 400 and bad request should display | The numbers appeared on the lastname clearly | 200 | Fail |
+| 10 | Leave lastname empty | Smart guessing | 400 and bad request should display | Booking Details Displayed successfully with no lastname | 200 | Fail |
+
+## API bug reports
+
+- Try 3)
+  
+Title: Entering a Negative Value in totalprice
+
+Request: POST, https://restful-booker.herokuapp.com/booking/4006, 
+{
+    "firstname": "Cindy",
+    "lastname": "Brian",
+    "totalprice": -100,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2025-01-22",
+        "checkout": "2026-05-02"
+    },
+    "additionalneeds": "Breakfast"
+}
+
+Expected: 400 and bad request should display
+
+Actual: Booking Details Displayed successfully with -100, status code 200
+
+Priority: Highest, Money, the website will lose money and customers
+
+Proof: <img width="2831" height="1622" alt="try 3" src="https://github.com/user-attachments/assets/5108c726-d1d2-45b8-bf3c-094f6e772a3b" />
+
+
+- Try 7)
+
+  Title: Entering Letters in the Check-in Date Field
+
+  Request: POST, https://restful-booker.herokuapp.com/booking,
+  {
+    "firstname": "John",
+    "lastname": "Smith",
+    "totalprice": 1100,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "dsjkssfd",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+
+Expected: 400 and bad request should display
+
+Actual: Booking Details displayed successfully with letters with status code 200
+
+Priority: Highest, Money, The website will not be able to recognise the check-in date
+
+Proof: <img width="2856" height="1659" alt="try 7" src="https://github.com/user-attachments/assets/4949a8b5-909f-42d7-93f6-af2b2b4f01e1" />
+
 
 
 
