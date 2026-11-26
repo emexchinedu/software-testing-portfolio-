@@ -9,10 +9,10 @@
 
 - The requests were rejected, and nothing changed. The tests passed because the token and valid authentication token were not included in the request header.
 
-<img width="2523" height="1643" alt="PUT-booking-3226" src="https://github.com/user-attachments/assets/2169d26c-a929-4382-81b3-d11b64f6918c" />
-<img width="2863" height="1627" alt="PATCH-booking-3226" src="https://github.com/user-attachments/assets/f2dcce0d-a8a6-4899-b0cf-06cda2aa1c08" />
-<img width="2878" height="1631" alt="DELETE-booking-3226" src="https://github.com/user-attachments/assets/6392b37e-a0e0-408b-bcb4-243df1f0731d" />
-<img width="2859" height="1636" alt="PUT-booking-3226-madeup" src="https://github.com/user-attachments/assets/c9952676-677d-472a-8c2f-0a27096d856f" />
+- <img width="2523" height="1643" alt="PUT-booking-3226" src="https://github.com/user-attachments/assets/2169d26c-a929-4382-81b3-d11b64f6918c" />
+- <img width="2863" height="1627" alt="PATCH-booking-3226" src="https://github.com/user-attachments/assets/f2dcce0d-a8a6-4899-b0cf-06cda2aa1c08" />
+- <img width="2878" height="1631" alt="DELETE-booking-3226" src="https://github.com/user-attachments/assets/6392b37e-a0e0-408b-bcb4-243df1f0731d" />
+- <img width="2859" height="1636" alt="PUT-booking-3226-madeup" src="https://github.com/user-attachments/assets/c9952676-677d-472a-8c2f-0a27096d856f" />
 
 
 ## PART 2: PUT, PATCH, DELETE with a key
@@ -26,4 +26,10 @@
 | GET/https://restful-booker.herokuapp.com/booking/163 | Display the booking details with change to dinner | Displayed booking details with dinner | 200 |
 | DELETE/https://restful-booker.herokuapp.com/booking/163 | Display CREATED 201 | Displayed CREATED 201 | 201 |
 | GET/https://restful-booker.herokuapp.com/booking/163 | Display Invalid booking, not found | Displayed that the bookingid is mssing | 404 |
+
+- The order DELETE/https://restful-booker.herokuapp.com/booking/163 displayed created 201 and its a question for the team. I checked if it has to end with a coma or to close it.
+
+- <img width="2864" height="1638" alt="3-put-withkey" src="https://github.com/user-attachments/assets/2a7d7193-463c-422b-bc5c-66251b7d2fcf" />
+- <img width="2857" height="1608" alt="5-patch-booking163" src="https://github.com/user-attachments/assets/60012616-4aca-4c3f-92ee-505dc89e7cb4" />
+- <img width="2866" height="1629" alt="8-delete-booking163" src="https://github.com/user-attachments/assets/94b8a53a-2221-44ca-b233-8ac05f5696aa" />
 
