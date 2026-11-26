@@ -1,4 +1,4 @@
-## PUT
+## PART 1: PUT, PATCH, DELETE without key
 
 | Order | Key | Expected | Actual | Status | Changed |
 |---|---|---|---|---|---|
