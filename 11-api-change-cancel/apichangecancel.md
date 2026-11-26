@@ -50,3 +50,11 @@
 - Proof: <img width="2861" height="1653" alt="patch-totalprice0" src="https://github.com/user-attachments/assets/20084d5d-815c-4df8-9a83-d2dfc7bb2733" />
 
 
+## Part 4: Tries
+| Try | What i change | Tool i used | Expected | Actual | Status | Pass or Fail |
+|---|---|---|---|---|---|---|
+| 1 | Leave totalprice empty | Edge | Should display 400 bad request | Display the booking with totalprice "null" | 200 | Fail |
+| 2 | Enter letters in totalprice | Group | Should display 400 bad request | Display the booking with totalprice "null" | 200 | Fail |
+| 3 | Leave depositpaid empty | Smart Guessing | Should display 400 bad request | Display the booking with depositpaid fasle | 200 | Fail |
+
+
