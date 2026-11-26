@@ -33,3 +33,7 @@
 - <img width="2857" height="1608" alt="5-patch-booking163" src="https://github.com/user-attachments/assets/60012616-4aca-4c3f-92ee-505dc89e7cb4" />
 - <img width="2866" height="1629" alt="8-delete-booking163" src="https://github.com/user-attachments/assets/94b8a53a-2221-44ca-b233-8ac05f5696aa" />
 
+## PART 3
+| Try | What I Send | Tool | Expected | Actual | Status | Pass or Fail |
+|---|---|---|---|---|---|---|
+| 1 | 
