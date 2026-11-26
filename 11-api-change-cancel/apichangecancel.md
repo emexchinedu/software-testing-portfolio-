@@ -36,4 +36,17 @@
 ## PART 3
 | Try | What I Send | Tool | Expected | Actual | Status | Pass or Fail |
 |---|---|---|---|---|---|---|
-| 1 | 
+| 1 | DELETE /booking/{id} with key, then PATCH the same booking, body: {"firstname": "Josh"} | State | Display Method not allowed, Investigate 405 Method Not Allowed | Displayed Method not allowed, Investigate 405 Method Not Allowed | 405 | Pass |
+| 2 | PATCH: {"firstname": ""} with key | Smart Guessing Empty | Should display bad request 400 | Displayed the booking bad request | 400 | Pass |
+| 3 | PATCH: {"totalprice": 0} with key | Edges | Should display bad request | Displayed the booking with totalprice 0 | 200 | Fail |
+| 4 | PATCH: {"totalprice": "abc"} | Smart Guessing Wrong | Should Display forbidden  | Displayed Fix 403 Forbidden error | 403 | Pass |
+
+- Bug report : PATCH: {"totalprice": 0} with key
+- Title: Booking with no totalprice
+- Request: PATCH/bookingid/header<valid token>/Body
+- Expected: Should display bad request
+- Actual: Displayed the booking with totalprice 0
+- Priority: Highest
+- Proof: <img width="2861" height="1653" alt="patch-totalprice0" src="https://github.com/user-attachments/assets/20084d5d-815c-4df8-9a83-d2dfc7bb2733" />
+
+- 
