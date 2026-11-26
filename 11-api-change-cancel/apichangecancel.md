@@ -15,3 +15,11 @@
 <img width="2859" height="1636" alt="PUT-booking-3226-madeup" src="https://github.com/user-attachments/assets/c9952676-677d-472a-8c2f-0a27096d856f" />
 
 
+## PART 2: 
+| Order | Expected | Actual | Status |
+|---|---|---|---|
+| POST/https://restful-booker.herokuapp.com/booking | Display new booking with details and ID | New booking displayed with details and id | 200 |
+| GET/https://restful-booker.herokuapp.com/booking/163 | Should Display the new booking | Displayed the new booking | 200 |
+| PUT/https://restful-booker.herokuapp.com/booking/163 | Display new firstname and totalprice | Displayed booking with firstname and totalprice | 200 |
+| GET/https://restful-booker.herokuapp.com/booking/163 | Display booking with new firstname and totalprice | Displayed the booking with new details | 200 |
+| PATCH/https://restful-booker.herokuapp.com/booking/163 | Display the change from breakfast to dinner in the booking | Booking displayed dinner | 200 | 
