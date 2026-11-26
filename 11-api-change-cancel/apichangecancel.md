@@ -53,8 +53,9 @@
 ## Part 4: Tries
 | Try | What i change | Tool i used | Expected | Actual | Status | Pass or Fail |
 |---|---|---|---|---|---|---|
-| 1 | Leave totalprice empty | Edge | Should display 400 bad request | Display the booking with totalprice "null" | 200 | Fail |
-| 2 | Enter letters in totalprice | Group | Should display 400 bad request | Display the booking with totalprice "null" | 200 | Fail |
-| 3 | Leave depositpaid empty | Smart Guessing | Should display 400 bad request | Display the booking with depositpaid fasle | 200 | Fail |
+| 1 | Leave totalprice empty | Edge | Should display 400 bad request | Displayed the booking with totalprice "null" | 200 | Fail |
+| 2 | Enter letters in totalprice | Group | Should display 400 bad request | Displayed the booking with totalprice "null" | 200 | Fail |
+| 3 | Leave depositpaid empty | Smart Guessing | Should display 400 bad request | Displayed the booking with depositpaid fasle | 200 | Fail |
 
-
+- The POST request returned a booking ID in the URL
+- I learned that **400 Bad Request** happens when a request contains incorrect or invalid information, such as missing fields or entering letters instead of numbers.
